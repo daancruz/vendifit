@@ -41,6 +41,7 @@
 }
 
 .container-refeicoes .cards .card .content {
+    background-color: var(--white);
     padding: 8px;
     height: 100%;
     display: flex;

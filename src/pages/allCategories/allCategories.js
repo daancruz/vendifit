@@ -1,10 +1,12 @@
 
-import { handleCarouselArrow } from '../../utils/handleCarouselArrow.js';
+// import { handleCarouselArrow } from '../../../src/utils/handleCarouselArrow.js';
 const baseUrl = window.BASE_URL;
 const container = document.querySelector('#main');
 const page = document.body.dataset.page;
 fetch(`${baseUrl}/data/refeicao.json`)
-    .then(async data => {
+    .then(async response => {
+
+        const data = await response.json();
         const res = await fetch(`${baseUrl}/src/components/cards/refeicao/cardRefeicao.html`);
         const htmlString = await res.text();
         const parser = new DOMParser();
@@ -16,6 +18,10 @@ fetch(`${baseUrl}/data/refeicao.json`)
 
             const section = cardRefeicoesTemplateClone.querySelector('.container-refeicoes');
             const title = section.querySelector('.title h3');
+            const verTodas = section.querySelector('.title a');
+            if(page === 'allCategories') {
+                verTodas.remove();
+            }
             const cards = section.querySelector('.cards');
 
             const sectionId = `refeicoes-${index}`;
@@ -35,7 +41,7 @@ fetch(`${baseUrl}/data/refeicao.json`)
                 card.querySelector('img').src = refeicao.image;
 
                 card.querySelector('img').onerror = () => {
-                    card.querySelector('img').src = '/public/assets/img/default.jpg';
+                    card.querySelector('img').src = `${baseUrl}/public/assets/img/default.jpg`;
                 };
 
                 card.querySelector('.tag').textContent = `#${refeicao.tag}`;
@@ -48,8 +54,7 @@ fetch(`${baseUrl}/data/refeicao.json`)
 
             container.appendChild(cardRefeicoesTemplateClone);
 
-            handleCarouselArrow(
-            );
+            // handleCarouselArrow();
         });
         const bgSection = document.querySelectorAll('.container-refeicoes');
         bgSection.forEach(bg => {

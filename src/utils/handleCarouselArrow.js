@@ -7,6 +7,8 @@ export function handleCarouselArrow(containerSelector, prevBtnSelector, nextBtnS
     const prevBtn = document.querySelector(prevBtnSelector);
     const nextBtn = document.querySelector(nextBtnSelector);
 
+    // if(!prevBtn || !nextBtn || !container) return;
+
     prevBtn.addEventListener('click', () => {
         container.scrollBy({
             left: -scrollAmount,
