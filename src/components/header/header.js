@@ -9,5 +9,8 @@ fetch(`${baseUrl}/src/components/header/header.html`)
     const template = doc.querySelector('#header-template');
     const clone = template.content.cloneNode(true);
     document.querySelector('.header').appendChild(clone);
+
+    const logo = document.querySelector('.logo');
+    logo.src = `${baseUrl}/public/assets/img/icons/logo.png`;
 })
 .catch(err => console.log(err));
