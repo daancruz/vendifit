@@ -41,7 +41,7 @@ fetch(`${baseUrl}/data/refeicao.json`)
                 card.querySelector('img').src = refeicao.image;
 
                 card.querySelector('img').onerror = () => {
-                    card.querySelector('img').src = `${baseUrl}/public/assets/img/default.jpg`;
+                    card.querySelector('img').src = `${baseUrl}/public/assets/img/default/no-image.svg`;
                 };
 
                 card.querySelector('.tag').textContent = `#${refeicao.tag}`;
