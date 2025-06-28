@@ -38,7 +38,7 @@ fetch(`${baseUrl}/data/refeicao.json`)
 
                 card.dataset.refeicaoId = refeicao.id;
 
-                card.querySelector('img').src = refeicao.image;
+                card.querySelector('img').src = `${baseUrl}/${refeicao.image}`;
 
                 card.querySelector('img').onerror = () => {
                     card.querySelector('img').src = `${baseUrl}/public/assets/img/default/no-image.svg`;
