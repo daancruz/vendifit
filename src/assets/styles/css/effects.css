@@ -1,0 +1,19 @@
+.underline {
+    position: relative;
+    display: inline-block;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: var(--green);
+    transition: width 0.3s ease;
+}
+
+.underline:hover::after {
+    width: 100%;
+}

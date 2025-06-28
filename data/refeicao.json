@@ -1,0 +1,294 @@
+{
+  "categorias": {
+    "basica": [
+      {
+        "id": 1,
+        "image": "/public/assets/img/card/cardBasica.png",
+        "tag": "basica",
+        "description": "Frango grelhado com arroz integral e legumes.",
+        "value": 18.90,
+        "weight": "400"
+      },
+      {
+        "id": 2,
+        "image": "/public/assets/img/card/cardBasica.png",
+        "tag": "basica",
+        "description": "Carne moída magra com purê de batata doce e brócolis.",
+        "value": 19.90,
+        "weight": "420"
+      },
+      {
+        "id": 3,
+        "image": "/public/assets/img/card/cardBasica.png",
+        "tag": "basica",
+        "description": "Estrogonofe de frango com arroz branco e batata palha.",
+        "value": 20.50,
+        "weight": "430"
+      },
+      {
+        "id": 4,
+        "image": "/public/assets/img/card/cardBasica.png",
+        "tag": "basica",
+        "description": "Frango ao curry com arroz de coco e abobrinha.",
+        "value": 21.00,
+        "weight": "410"
+      },
+      {
+        "id": 5,
+        "image": "/public/assets/img/card/cardBasica.png",
+        "tag": "basica",
+        "description": "Tilápia grelhada com purê de mandioquinha e couve refogada.",
+        "value": 22.90,
+        "weight": "400"
+      },
+      {
+        "id": 6,
+        "image": "/public/assets/img/card/cardBasica.png",
+        "tag": "basica",
+        "description": "Picadinho com arroz integral e legumes salteados.",
+        "value": 20.00,
+        "weight": "420"
+      },
+      {
+        "id": 7,
+        "image": "/public/assets/img/card/cardBasica.png",
+        "tag": "basica",
+        "description": "Frango desfiado com batata doce rústica e vagem.",
+        "value": 18.50,
+        "weight": "390"
+      }
+    ],
+    "ganho_de_massa": [
+      {
+        "id": 8,
+        "image": "/public/assets/img/card/cardGanhodemassa.png",
+        "tag": "ganho de massa",
+        "description": "Frango grelhado com macarrão integral e molho branco leve.",
+        "value": 23.90,
+        "weight": "500"
+      },
+      {
+        "id": 9,
+        "image": "/public/assets/img/card/cardGanhodemassa.png",
+        "tag": "ganho de massa",
+        "description": "Carne bovina com batata doce e arroz integral.",
+        "value": 25.00,
+        "weight": "520"
+      },
+      {
+        "id": 10,
+        "image": "/public/assets/img/card/cardGanhodemassa.png",
+        "tag": "ganho de massa",
+        "description": "Arroz de lentilha com ovos e frango desfiado.",
+        "value": 22.00,
+        "weight": "500"
+      },
+      {
+        "id": 11,
+        "image": "/public/assets/img/card/cardGanhodemassa.png",
+        "tag": "ganho de massa",
+        "description": "Frango grelhado com grão-de-bico e legumes.",
+        "value": 24.50,
+        "weight": "510"
+      },
+      {
+        "id": 12,
+        "image": "/public/assets/img/card/cardGanhodemassa.png",
+        "tag": "ganho de massa",
+        "description": "Almôndegas de carne com arroz integral e feijão preto.",
+        "value": 23.00,
+        "weight": "520"
+      },
+      {
+        "id": 13,
+        "image": "/public/assets/img/card/cardGanhodemassa.png",
+        "tag": "ganho de massa",
+        "description": "Frango recheado com espinafre e purê de batata doce.",
+        "value": 25.90,
+        "weight": "500"
+      },
+      {
+        "id": 14,
+        "image": "/public/assets/img/card/cardGanhodemassa.png",
+        "tag": "ganho de massa",
+        "description": "Arroz de frango com ovo cozido e vegetais.",
+        "value": 22.80,
+        "weight": "510"
+      }
+    ],
+    "vegano": [
+      {
+        "id": 15,
+        "image": "/public/assets/img/card/cardVegano.png",
+        "tag": "vegano",
+        "description": "Grão-de-bico ao curry com arroz integral e legumes.",
+        "value": 21.90,
+        "weight": "400"
+      },
+      {
+        "id": 16,
+        "image": "/public/assets/img/card/cardVegano.png",
+        "tag": "vegano",
+        "description": "Tofu grelhado com purê de mandioquinha e couve refogada.",
+        "value": 22.50,
+        "weight": "410"
+      },
+      {
+        "id": 17,
+        "image": "/public/assets/img/card/cardVegano.png",
+        "tag": "vegano",
+        "description": "Escondidinho de lentilha com purê de batata doce.",
+        "value": 23.00,
+        "weight": "420"
+      },
+      {
+        "id": 18,
+        "image": "/public/assets/img/card/cardVegano.png",
+        "tag": "vegano",
+        "description": "Arroz de couve-flor com legumes salteados e tofu.",
+        "value": 21.00,
+        "weight": "400"
+      },
+      {
+        "id": 19,
+        "image": "/public/assets/img/card/cardVegano.png",
+        "tag": "vegano",
+        "description": "Hambúrguer vegano com arroz integral e brócolis.",
+        "value": 22.90,
+        "weight": "410"
+      },
+      {
+        "id": 20,
+        "image": "/public/assets/img/card/cardVegano.png",
+        "tag": "vegano",
+        "description": "Mix de vegetais ao curry com arroz de jasmim.",
+        "value": 23.90,
+        "weight": "430"
+      },
+      {
+        "id": 21,
+        "image": "/public/assets/img/card/cardVegano.png",
+        "tag": "vegano",
+        "description": "Berinjela recheada com quinoa e legumes.",
+        "value": 24.00,
+        "weight": "400"
+      }
+    ],
+    "emagrecimento": [
+      {
+        "id": 22,
+        "image": "/public/assets/img/card/cardEmagrecimento.png",
+        "tag": "emagrecimento",
+        "description": "Frango grelhado com mix de legumes cozidos.",
+        "value": 19.90,
+        "weight": "350"
+      },
+      {
+        "id": 23,
+        "image": "/public/assets/img/card/cardEmagrecimento.png",
+        "tag": "emagrecimento",
+        "description": "Tilápia grelhada com arroz integral e brócolis.",
+        "value": 21.00,
+        "weight": "360"
+      },
+      {
+        "id": 24,
+        "image": "/public/assets/img/card/cardEmagrecimento.png",
+        "tag": "emagrecimento",
+        "description": "Carne magra com quinoa e abobrinha grelhada.",
+        "value": 22.00,
+        "weight": "370"
+      },
+      {
+        "id": 25,
+        "image": "/public/assets/img/card/cardEmagrecimento.png",
+        "tag": "emagrecimento",
+        "description": "Omelete de claras com espinafre e tomate cereja.",
+        "value": 18.90,
+        "weight": "340"
+      },
+      {
+        "id": 26,
+        "image": "/public/assets/img/card/cardEmagrecimento.png",
+        "tag": "emagrecimento",
+        "description": "Frango desfiado com purê de abóbora e vagem.",
+        "value": 20.50,
+        "weight": "350"
+      },
+      {
+        "id": 27,
+        "image": "/public/assets/img/card/cardEmagrecimento.png",
+        "tag": "emagrecimento",
+        "description": "Salada com frango, ovos cozidos e vegetais.",
+        "value": 19.50,
+        "weight": "360"
+      },
+      {
+        "id": 28,
+        "image": "/public/assets/img/card/cardEmagrecimento.png",
+        "tag": "emagrecimento",
+        "description": "Wrap de alface recheado com carne magra e legumes.",
+        "value": 21.00,
+        "weight": "330"
+      }
+    ],
+    "manutencao_de_peso": [
+      {
+        "id": 29,
+        "image": "/public/assets/img/card/cardManutencao.png",
+        "tag": "manutenção",
+        "description": "Frango grelhado com quinoa e legumes variados.",
+        "value": 20.90,
+        "weight": "400"
+      },
+      {
+        "id": 30,
+        "image": "/public/assets/img/card/cardManutencao.png",
+        "tag": "manutenção",
+        "description": "Carne magra com arroz integral e vegetais grelhados.",
+        "value": 22.00,
+        "weight": "420"
+      },
+      {
+        "id": 31,
+        "image": "/public/assets/img/card/cardManutencao.png",
+        "tag": "manutenção",
+        "description": "Tilápia grelhada com purê de batata doce e couve.",
+        "value": 23.00,
+        "weight": "410"
+      },
+      {
+        "id": 32,
+        "image": "/public/assets/img/card/cardManutencao.png",
+        "tag": "manutenção",
+        "description": "Strogonoff leve com frango, arroz integral e cenoura.",
+        "value": 21.90,
+        "weight": "400"
+      },
+      {
+        "id": 33,
+        "image": "/public/assets/img/card/cardManutencao.png",
+        "tag": "manutenção",
+        "description": "Omelete com quinoa e salada de folhas verdes.",
+        "value": 20.50,
+        "weight": "390"
+      },
+      {
+        "id": 34,
+        "image": "/public/assets/img/card/cardManutencao.png",
+        "tag": "manutenção",
+        "description": "Wrap de pão integral com frango e legumes.",
+        "value": 19.90,
+        "weight": "380"
+      },
+      {
+        "id": 35,
+        "image": "/public/assets/img/card/cardManutencao.png",
+        "tag": "manutenção",
+        "description": "Arroz integral com legumes e tiras de carne grelhada.",
+        "value": 21.00,
+        "weight": "410"
+      }
+    ]
+  }
+}

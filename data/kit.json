@@ -1,0 +1,214 @@
+{
+  "categorias": {
+    "basica": [
+      {
+        "id": 1,
+        "image": "",
+        "title": "basica",
+        "description": "Frango grelhado com arroz integral e legumes.",
+        "itens": [
+            {
+                "id": "1",
+                "description": ""
+            },
+            {
+                "id": "2",
+                "description": ""
+            },
+            {
+                "id": "3",
+                "description": ""
+            },
+            {
+                "id": "4",
+                "description": ""
+            },
+            {
+                "id": "5",
+                "description": ""
+            },
+            {
+                "id": "6",
+                "description": ""
+            },
+            {
+                "id": "7",
+                "description": ""
+            }
+        ],
+        "value": 18.90,
+        "weight": "400g",
+        "badge": "novo",
+        "offer": "10"
+      }
+    ],
+    "ganho_de_massa": [
+      {
+        "id": 8,
+        "image": "",
+        "title": "ganho de massa",
+        "description": "Frango grelhado com macarrão integral e molho branco leve.",
+        "itens": [
+            {
+                "id": "1",
+                "description": ""
+            },
+            {
+                "id": "2",
+                "description": ""
+            },
+            {
+                "id": "3",
+                "description": ""
+            },
+            {
+                "id": "4",
+                "description": ""
+            },
+            {
+                "id": "5",
+                "description": ""
+            },
+            {
+                "id": "6",
+                "description": ""
+            },
+            {
+                "id": "7",
+                "description": ""
+            }
+        ],
+        "value": 23.90,
+        "weight": "500g",
+        "badge": "novo",
+        "offer": ""
+      }
+    ],
+    "vegano": [
+      {
+        "id": 15,
+        "image": "",
+        "title": "vegano",
+        "description": "Grão-de-bico ao curry com arroz integral e legumes.",
+        "itens": [
+            {
+                "id": "1",
+                "description": ""
+            },
+            {
+                "id": "2",
+                "description": ""
+            },
+            {
+                "id": "3",
+                "description": ""
+            },
+            {
+                "id": "4",
+                "description": ""
+            },
+            {
+                "id": "5",
+                "description": ""
+            },
+            {
+                "id": "6",
+                "description": ""
+            },
+            {
+                "id": "7",
+                "description": ""
+            }
+        ],
+        "value": 21.90,
+        "weight": "400g",
+        "badge": "",
+        "offer": ""
+      }
+    ],
+    "emagrecimento": [
+      {
+        "id": 22,
+        "image": "",
+        "title": "emagrecimento",
+        "description": "Frango grelhado com mix de legumes cozidos.",
+        "itens": [
+            {
+                "id": "1",
+                "description": ""
+            },
+            {
+                "id": "2",
+                "description": ""
+            },
+            {
+                "id": "3",
+                "description": ""
+            },
+            {
+                "id": "4",
+                "description": ""
+            },
+            {
+                "id": "5",
+                "description": ""
+            },
+            {
+                "id": "6",
+                "description": ""
+            },
+            {
+                "id": "7",
+                "description": ""
+            }
+        ],
+        "value": 19.90,
+        "weight": "350g",
+        "badge": "",
+        "offer": ""
+      }
+    ],
+    "manutencao_de_peso": [
+      {
+        "id": 29,
+        "image": "",
+        "title": "manutenção",
+        "description": "Frango grelhado com quinoa e legumes variados.",
+        "itens": [
+            {
+                "id": "1",
+                "description": ""
+            },
+            {
+                "id": "2",
+                "description": ""
+            },
+            {
+                "id": "3",
+                "description": ""
+            },
+            {
+                "id": "4",
+                "description": ""
+            },
+            {
+                "id": "5",
+                "description": ""
+            },
+            {
+                "id": "6",
+                "description": ""
+            },
+            {
+                "id": "7",
+                "description": ""
+            }
+        ],
+        "value": 20.90,
+        "weight": "400g",
+        "badge": "",
+        "offer": ""
+      }
+    ]
+  }
+}

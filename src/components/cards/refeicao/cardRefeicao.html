@@ -1,0 +1,32 @@
+<template id="cardRefeicoes-template">
+    <section class="container-refeicoes">
+        <div class="title">
+            <h3>Refeições</h3>
+            <a class="underline" href="/src/pages/allCategories/allCategories.html">Ver todas</a>
+        </div>
+        <button class="carousel-btn prev"><img src="/public/assets/img/icons/chevron-left.svg" alt=""></button>
+        <div class="cards">
+            <!-- RENDERIZAÇÃO -->
+        </div>
+        <button class="carousel-btn next"><img src="/public/assets/img/icons/chevron-right.svg" alt=""></button>
+    </section>
+</template>
+
+<template id="cardRefeicoes-card-template">
+    <div class="card" data-refeicao-id="">
+        <div class="image">
+            <img src="" alt="">
+        </div>
+        <div class="content">
+            <div>
+                <span class="tag"></span>
+                <p class="description"></p>
+            </div>
+            <div class="info">
+                <span class="price"></span>
+                <span class="weight"></span>
+            </div>
+            <button class="btn btn-green">+ Adicionar</button>
+        </div>
+    </div>
+</template>

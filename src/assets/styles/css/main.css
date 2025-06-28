@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('./reset.css');
+@import url('./banner.css');
+@import url('../../../components/cards/refeicao/cardRefeicoes.css');
+@import url('../../../components/cards/kit/cardKit.css');
+@import url('../../../components/cards/categoria/cardCategoria.css');
+@import url('./buttons.css');
+@import url('../../../components/footer/footer.css');
+@import url('../../../components/header/header.css');
+@import url('../../../pages/access.css');
+@import url('./effects.css');
+@import url('../../../pages/allCategories/allCategories.css');
+
+:root {
+/* COLORS */
+    --white: #FDFDFD;
+    --dark: #515151;
+
+    --light-brown: #F6F3EB;
+
+    --grey: #E6E6E6;
+    --medium-grey: #C4C4C4;
+    --dark-grey: #A8A8A8;
+
+    --green: #B1B420;
+    --medium-green: #9FA21D;
+    --dark-green: #8E901A;
+
+    --emerald: #00A9AA;
+    --medium-emerald: #009899;
+    --dark-emerald: #008788;
+
+    --orange: #EBB22B;
+    --medium-orange: #D4A027;
+    --dark-orange: #BC8E22;
+
+    --red: #E1411B;
+    --medium-red: #CB3B18;
+    --dark-red: #B43416;
+
+    --violet: #861757;
+    --medium-violet: #79154E;
+    --dark-violet: #6B1246;
+
+/* FONT */
+    --font-quicksand: "Quicksand", sans-serif;
+}
+
+.bg-emerald {
+    background-color: var(--emerald);
+}
+
+.bg-light-brown {
+    background-color: var(--light-brown);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+.hidden { display: none }
+
+.order-1 { order: 1 }
+.order-2 { order: 2 }
+.order-3 { order: 3 }
+.order-4 { order: 4 }
+.order-5 { order: 5 }
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.title h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: medium;
+    margin: 16px 0 ;
+}
+
+.title-dark h3 {
+    color: var(--dark);
+}
+
+.title-light h3 {
+    color: var(--white);
+}
+
+.title a {
+    color: var(--dark);
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+
+    body {
+		font-size: 16px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	main {
+		width: 100%;
+        max-width: 1024px;
+	}
+
+    .refeicoes, .kits, .categorias {
+        margin-top: 64px;
+    }
+    
+    .title h3 {
+        font-size: 24px;
+        font-weight: semibold;
+    }
+
+    .title a {
+        font-size: 16px;
+    }
+}

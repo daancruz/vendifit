@@ -1,0 +1,42 @@
+{
+  "basica": [
+    {
+      "id": 1,
+      "name": "Básica",
+      "image": "",
+      "description": "Teste de descrição de produto"
+    }
+  ],
+  "ganho_de_massa": [
+    {
+      "id": 2,
+      "name": "Ganho de massa",
+      "image": "",
+      "description": "Teste de descrição de produto"
+    }
+  ],
+  "vegano": [
+    {
+      "id": 3,
+      "name": "Vegano",
+      "image": "",
+      "description": "Teste de descrição de produto"
+    }
+  ],
+  "emagrecimento": [
+    {
+      "id": 4,
+      "name": "Emagrecimento",
+      "image": "",
+      "description": "Teste de descrição de produto"
+    }
+  ],
+  "manutencao_de_peso": [
+    {
+      "id": 5,
+      "name": "Manutenção de peso",
+      "image": "",
+      "description": "Teste de descrição de produto"
+    }
+  ]
+}

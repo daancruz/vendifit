@@ -1,0 +1,41 @@
+<template id="header-template">
+    <nav class="navbar">
+        <a class="link" href="/"><img class="logo" src="/public/assets/img/icons/logo.png" alt="LOGO"></a>
+        <ul class="list">
+            <label for="hamburguer">
+                <li class="item"><img class="icon" src="/public/assets/img/icons/menu-hamburguer.svg" alt="Menu">
+                </li>
+            </label>
+            <input type="checkbox" id="hamburguer" hidden>
+            <li class="item"><img class="icon" src="/public/assets/img/icons/search-icon.svg" alt="Pesquisa"></li>
+            <li class="item"><a class="link" href="/"><img class="logo" src="/public/assets/img/icons/logo.png"
+                        alt="Logo"></a></li>
+            <li class="item">
+                <a href="src/pages/login/login.html">
+                    <img class="icon" src="/public/assets/img/icons/profile-icon.svg" alt="Perfil">
+                </a>
+            </li>
+            <li class="item btn btn-bag">
+                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                </svg>
+                <span>Sua sacola</span>
+            </li>
+        </ul>
+        <ul class="sublist">
+            <li class="item">
+                Refeições
+                <ul class="list">
+                    <li class="item"><a class="link" href="#">Básicas</a></li>
+                    <li class="item"><a class="link" href="#">Ganho de Massa</a></li>
+                    <li class="item"><a class="link" href="#">Vegana</a></li>
+                    <li class="item"><a class="link" href="#">Emagrecimento</a></li>
+                    <li class="item"><a class="link" href="#">Manutenção de Peso</a></li>
+                </ul>
+            </li>
+            <li class="item"><a class="link underline" href="#container-kits">Kits</a></li>
+            <li class="item"><a class="link underline" href="/">Objetivos</a></li>
+            <li class="item"><a class="link underline" href="#">A Vendifit</a></li>
+        </ul>
+    </nav>
+</template>
