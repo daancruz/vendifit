@@ -1,5 +1,11 @@
 const port = 5500;
-window.BASE_URL = location.origin;
+
+const repositoryName = 'vendifit';
+const isGhPages = location.hostname.includes('github.io');
+
+const basePath = isGhPages ? `/${repositoryName}` : '';
+
+window.BASE_URL = location.origin + basePath;
 
 const scripts = [
     '/src/components/header/header.js',
