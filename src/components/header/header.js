@@ -16,10 +16,10 @@ fetch(`${baseUrl}/src/components/header/header.html`)
     const iconMenu = document.querySelector('.icon-menu');
     const iconSearch = document.querySelector('.icon-search');
     const iconProfile = document.querySelector('.icon-profile');
-    const goToHome = document.querySelectorAll('.nav .link');
+    const goToHome = document.querySelectorAll('.navbar .link');
 
     goToHome.forEach(home => {
-        home.href = `${baseUrl}/`;
+        home.href = `${baseUrl}`;
     })
 
     logo.src = `${baseUrl}/public/assets/img/icons/logo.png`;

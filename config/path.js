@@ -7,6 +7,17 @@ const basePath = isGhPages ? `/${repositoryName}` : '';
 
 window.BASE_URL = location.origin + basePath;
 
+const links = [
+    '/src/assets/styles/css/main.css',
+];
+
+links.forEach(path => {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = window.BASE_URL + path;
+    document.head.appendChild(link);
+});
+
 const scripts = [
     '/src/components/header/header.js',
     '/src/components/footer/footer.js',

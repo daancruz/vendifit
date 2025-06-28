@@ -16,7 +16,7 @@ fetch(`${baseUrl}/src/components/footer/footer.html`)
     const goToHome = document.querySelectorAll('.logo a');
 
     goToHome.forEach(home => {
-        home.href = `${baseUrl}/`;
+        home.href = `${baseUrl}`;
     })
 
     logo.src = `${baseUrl}/public/assets/img/icons/logo.png`;
