@@ -12,18 +12,21 @@ fetch(`${baseUrl}/src/components/header/header.html`)
     
     document.querySelector('.header').appendChild(clone);
 
-    const logo = document.querySelector('.logo');
+    const logo = document.querySelectorAll('.logo');
     const iconMenu = document.querySelector('.icon-menu');
     const iconSearch = document.querySelector('.icon-search');
     const iconProfile = document.querySelector('.icon-profile');
     const linkLogin = document.querySelector('.link-login');
     const goToHome = document.querySelectorAll('.navbar .link');
 
+    logo.forEach(img => {
+        img.src = `${baseUrl}/public/assets/img/icons/logo.png`;
+    })
+
     goToHome.forEach(home => {
         home.href = `${baseUrl}`;
     })
 
-    logo.src = `${baseUrl}/public/assets/img/icons/logo.png`;
     iconMenu.src = `${baseUrl}/public/assets/img/icons/menu-hamburguer.svg`;
     iconSearch.src = `${baseUrl}/public/assets/img/icons/search-icon.svg`;
     iconProfile.src = `${baseUrl}/public/assets/img/icons/profile-icon.svg`;
