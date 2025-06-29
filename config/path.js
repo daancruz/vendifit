@@ -36,16 +36,16 @@ icon.forEach(path => {
     document.head.appendChild(link);
 });
 
-const css = [
-    '/src/assets/styles/css/main.css',
-];
+// const css = [
+//     '/src/assets/styles/css/main.css',
+// ];
 
-css.forEach(path => {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = window.BASE_URL + path;
-    document.head.appendChild(link);
-});
+// css.forEach(path => {
+//     const link = document.createElement('link');
+//     link.rel = 'stylesheet';
+//     link.href = window.BASE_URL + path;
+//     document.head.appendChild(link);
+// });
 
 const scripts = [
     '/src/components/header/header.js',

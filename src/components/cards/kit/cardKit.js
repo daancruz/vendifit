@@ -54,5 +54,12 @@ fetch(`${baseUrl}/data/kit.json`)
                 })
                 container.appendChild(cardKitsTemplateClone)
                 bgPerPage();
-            })
+                const hash = window.location.hash;
+                if (hash) {
+                    const target = document.querySelector(hash);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                };
+            });
     })

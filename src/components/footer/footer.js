@@ -13,7 +13,11 @@ fetch(`${baseUrl}/src/components/footer/footer.html`)
     const iconFacebook = document.querySelector('.icon-facebook');
     const iconInstagram = document.querySelector('.icon-instagram');
     const iconX = document.querySelector('.icon-x');
+    const linkKits = document.querySelectorAll('.link-kits');
     const goToHome = document.querySelectorAll('.logo a');
+    linkKits.forEach(link => {
+        link.href = linkKits.href = `${baseUrl}/src/pages/allCategories/allCategories.html#container-kits`;
+    })
 
     goToHome.forEach(home => {
         home.href = `${baseUrl}`;
@@ -23,5 +27,6 @@ fetch(`${baseUrl}/src/components/footer/footer.html`)
     iconFacebook.src = `${baseUrl}/public/assets/img/icons/facebook.svg`;
     iconInstagram.src = `${baseUrl}/public/assets/img/icons/instagram.svg`;
     iconX.src = `${baseUrl}/public/assets/img/icons/x.svg`;
+    
 })
 .catch(err => console.log(err));

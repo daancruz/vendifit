@@ -4,7 +4,8 @@
       "id": 1,
       "name": "Básica",
       "image": "",
-      "description": "Teste de descrição de produto"
+      "description": "Teste de descrição de produto",
+      "link": "src/pages/allCategories/allCategories.html#basica"
     }
   ],
   "ganho_de_massa": [
@@ -12,7 +13,8 @@
       "id": 2,
       "name": "Ganho de massa",
       "image": "",
-      "description": "Teste de descrição de produto"
+      "description": "Teste de descrição de produto",
+      "link": "src/pages/allCategories/allCategories.html#ganho-de-massa"
     }
   ],
   "vegano": [
@@ -20,7 +22,8 @@
       "id": 3,
       "name": "Vegano",
       "image": "",
-      "description": "Teste de descrição de produto"
+      "description": "Teste de descrição de produto",
+      "link": "src/pages/allCategories/allCategories.html#vegano"
     }
   ],
   "emagrecimento": [
@@ -28,7 +31,8 @@
       "id": 4,
       "name": "Emagrecimento",
       "image": "",
-      "description": "Teste de descrição de produto"
+      "description": "Teste de descrição de produto",
+      "link": "src/pages/allCategories/allCategories.html#emagrecimento"
     }
   ],
   "manutencao_de_peso": [
@@ -36,7 +40,8 @@
       "id": 5,
       "name": "Manutenção de peso",
       "image": "",
-      "description": "Teste de descrição de produto"
+      "description": "Teste de descrição de produto",
+      "link": "src/pages/allCategories/allCategories.html#manutencao-de-peso"
     }
   ]
 }

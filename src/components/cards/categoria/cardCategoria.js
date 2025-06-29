@@ -26,6 +26,7 @@ fetch(`${baseUrl}/data/categoria.json`)
                         cardClone.querySelector('.card img').onerror = handleImageError;
                         cardClone.querySelector('.card .content .title').textContent = categoria.name;
                         cardClone.querySelector('.card .content .description').textContent = categoria.description;
+                        cardClone.querySelector('.card .btn').href = `${baseUrl}/${categoria.link}`;
                         cards.appendChild(cardClone);
                     });
 

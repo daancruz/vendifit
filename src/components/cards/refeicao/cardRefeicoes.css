@@ -2,6 +2,7 @@
     margin: 0 16px;
     position: relative;
     order: 1;
+    scroll-margin-top: 70px;
 }
 
 .container-refeicoes .cards {

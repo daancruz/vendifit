@@ -17,8 +17,20 @@ fetch(`${baseUrl}/data/refeicao.json`)
             const cardRefeicoesTemplateClone = cardRefeicoesTemplate.content.cloneNode(true);
 
             const section = cardRefeicoesTemplateClone.querySelector('.container-refeicoes');
+            section.classList.add('bg-light-brown', 'title-dark');
+            section.style.margin = '16px 0';
+            section.style.padding = '32px 16px';
+
+            const idFomatado = categoriaName
+            .toLowerCase()
+            .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/[^a-z0-9\-]/g, '-');
+
+            section.id = idFomatado;
             const title = section.querySelector('.title h3');
             const verTodas = section.querySelector('.title a');
+
             if (page === 'allCategories') {
                 verTodas.remove();
             }
@@ -60,12 +72,20 @@ fetch(`${baseUrl}/data/refeicao.json`)
                 '.carousel-btn.prev',
                 '.carousel-btn.next'
             );
+            const hash = window.location.hash;
+            if (hash) {
+                const target = document.querySelector(hash);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            };
         });
-        const bgSection = document.querySelectorAll('.container-refeicoes');
-        bgSection.forEach(bg => {
-            bg.classList.add('bg-light-brown', 'title-dark');
-            bg.style.margin = '16px 0';
-            bg.style.padding = '32px 16px';
 
-        })
+        // const bgSection = document.querySelectorAll('.container-refeicoes');
+        // bgSection.forEach(bg => {
+        //     bg.classList.add('bg-light-brown', 'title-dark');
+        //     bg.style.margin = '16px 0';
+        //     bg.style.padding = '32px 16px';
+
+        // })
     });
