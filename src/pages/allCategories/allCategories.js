@@ -1,5 +1,5 @@
 
-// import { handleCarouselArrow } from '../../../src/utils/handleCarouselArrow.js';
+import { handleCarouselArrow } from '../../../src/utils/handleCarouselArrow.js';
 const baseUrl = window.BASE_URL;
 const container = document.querySelector('#main');
 const page = document.body.dataset.page;
@@ -19,7 +19,7 @@ fetch(`${baseUrl}/data/refeicao.json`)
             const section = cardRefeicoesTemplateClone.querySelector('.container-refeicoes');
             const title = section.querySelector('.title h3');
             const verTodas = section.querySelector('.title a');
-            if(page === 'allCategories') {
+            if (page === 'allCategories') {
                 verTodas.remove();
             }
             const cards = section.querySelector('.cards');
@@ -55,6 +55,11 @@ fetch(`${baseUrl}/data/refeicao.json`)
             container.appendChild(cardRefeicoesTemplateClone);
 
             // handleCarouselArrow();
+            handleCarouselArrow(
+                '.cards',
+                '.carousel-btn.prev',
+                '.carousel-btn.next'
+            );
         });
         const bgSection = document.querySelectorAll('.container-refeicoes');
         bgSection.forEach(bg => {
