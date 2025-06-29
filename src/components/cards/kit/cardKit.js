@@ -19,7 +19,8 @@ fetch(`${baseUrl}/data/kit.json`)
 
                 const cardKitsTemplateClone = cardKitsTemplate.content.cloneNode(true);
                 const cards = cardKitsTemplateClone.querySelector('.cards');
-                
+                const banner = cardKitsTemplateClone.querySelector('.banner-kit img');
+                banner.src = `${baseUrl}/public/assets/img/banner/bannerEmagrecimento.jpeg`;
 
                 Object.entries(data.categorias).forEach(([_, kits]) => {
                     const cardClone = cardKitsCardTemplate.content.cloneNode(true);

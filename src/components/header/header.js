@@ -16,6 +16,7 @@ fetch(`${baseUrl}/src/components/header/header.html`)
     const iconMenu = document.querySelector('.icon-menu');
     const iconSearch = document.querySelector('.icon-search');
     const iconProfile = document.querySelector('.icon-profile');
+    const linkLogin = document.querySelector('.link-login');
     const goToHome = document.querySelectorAll('.navbar .link');
 
     goToHome.forEach(home => {
@@ -26,5 +27,6 @@ fetch(`${baseUrl}/src/components/header/header.html`)
     iconMenu.src = `${baseUrl}/public/assets/img/icons/menu-hamburguer.svg`;
     iconSearch.src = `${baseUrl}/public/assets/img/icons/search-icon.svg`;
     iconProfile.src = `${baseUrl}/public/assets/img/icons/profile-icon.svg`;
+    linkLogin.href = `${baseUrl}/src/pages/login/login.html`;
 })
 .catch(err => console.log(err));
