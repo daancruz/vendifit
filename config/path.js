@@ -37,7 +37,7 @@ icon.forEach(path => {
 });
 
 // const css = [
-//     '/src/assets/styles/css/main.css',
+//     '/src/assets/css/main.css',
 // ];
 
 // css.forEach(path => {

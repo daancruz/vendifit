@@ -19,12 +19,12 @@ fetch(`${baseUrl}/src/components/filter/filter.html`)
         const btnFilterManutencaoDePeso = document.querySelector('#btn-filter-manutencao-de-peso');
         const btnFilterKits = document.querySelector('#btn-filter-kits');
 
-        btnFilterBasica.href = `${baseUrl}/src/pages/allCategories/allCategories.html#basica`;
-        btnFilterGanhoDeMassa.href = `${baseUrl}/src/pages/allCategories/allCategories.html#ganho-de-massa`;
-        btnFilterVegano.href = `${baseUrl}/src/pages/allCategories/allCategories.html#vegano`;
-        btnFilterEmagrecimento.href = `${baseUrl}/src/pages/allCategories/allCategories.html#emagrecimento`;
-        btnFilterManutencaoDePeso.href = `${baseUrl}/src/pages/allCategories/allCategories.html#manutencao-de-peso`;
-        btnFilterKits.href = `${baseUrl}/src/pages/allCategories/allCategories.html#container-kits`;
+        btnFilterBasica.href = `${baseUrl}/view/allCategories.html#basica`;
+        btnFilterGanhoDeMassa.href = `${baseUrl}/view/allCategories.html#ganho-de-massa`;
+        btnFilterVegano.href = `${baseUrl}/view/allCategories.html#vegano`;
+        btnFilterEmagrecimento.href = `${baseUrl}/view/allCategories.html#emagrecimento`;
+        btnFilterManutencaoDePeso.href = `${baseUrl}/view/allCategories.html#manutencao-de-peso`;
+        btnFilterKits.href = `${baseUrl}/view/allCategories.html#container-kits`;
 
         btnFilterBasica.addEventListener('click', () => {
             btnFilterBasica.classList.add('active');

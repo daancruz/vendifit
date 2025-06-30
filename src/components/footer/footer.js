@@ -22,22 +22,22 @@ fetch(`${baseUrl}/src/components/footer/footer.html`)
     const goToHome = document.querySelectorAll('#link-home');
 
     linkBasica.forEach(link => {
-        link.href = linkBasica.href = `${baseUrl}/src/pages/allCategories/allCategories.html#basica`;
+        link.href = linkBasica.href = `${baseUrl}/view/allCategories.html#basica`;
     });
     linkGanhoDeMassa.forEach(link => {
-        link.href = linkGanhoDeMassa.href = `${baseUrl}/src/pages/allCategories/allCategories.html#ganho-de-massa`;
+        link.href = linkGanhoDeMassa.href = `${baseUrl}/view/allCategories.html#ganho-de-massa`;
     });
     linkVegano.forEach(link => {
-        link.href = linkVegano.href = `${baseUrl}/src/pages/allCategories/allCategories.html#vegano`;
+        link.href = linkVegano.href = `${baseUrl}/view/allCategories.html#vegano`;
     });
     linkEmagrecimento.forEach(link => {
-        link.href = linkEmagrecimento.href = `${baseUrl}/src/pages/allCategories/allCategories.html#emagrecimento`;
+        link.href = linkEmagrecimento.href = `${baseUrl}/view/allCategories.html#emagrecimento`;
     });
     linkManutencaoDePeso.forEach(link => {
-        link.href = linkManutencaoDePeso.href = `${baseUrl}/src/pages/allCategories/allCategories.html#manutencao-de-peso`;
+        link.href = linkManutencaoDePeso.href = `${baseUrl}/view/allCategories.html#manutencao-de-peso`;
     });
     linkKits.forEach(link => {
-        link.href = linkKits.href = `${baseUrl}/src/pages/allCategories/allCategories.html#container-kits`;
+        link.href = linkKits.href = `${baseUrl}/view/allCategories.html#container-kits`;
     });
     goToHome.forEach(home => {
         home.href = `${baseUrl}`;

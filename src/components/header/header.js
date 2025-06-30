@@ -32,6 +32,6 @@ fetch(`${baseUrl}/src/components/header/header.html`)
     iconSearch.src = `${baseUrl}/public/assets/img/icons/search-icon.svg`;
     iconProfile.src = `${baseUrl}/public/assets/img/icons/profile-icon.svg`;
     linkLogin.href = `${baseUrl}/src/pages/login/login.html`;
-    linkKits.href = `${baseUrl}/src/pages/allCategories/allCategories.html#container-kits`;
+    linkKits.href = `${baseUrl}/view/allCategories.html#container-kits`;
 })
 .catch(err => console.log(err));

@@ -1,5 +1,5 @@
 
-import { handleCarouselArrow } from '../../../src/utils/handleCarouselArrow.js';
+import { handleCarouselArrow } from '../../utils/handleCarouselArrow.js';
 const baseUrl = window.BASE_URL;
 const container = document.querySelector('#main');
 const page = document.body.dataset.page;

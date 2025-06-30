@@ -20,7 +20,7 @@ fetch(`${baseUrl}/data/refeicao.json`)
                 const cardRefeicoesTemplateClone = cardRefeicoesTemplate.content.cloneNode(true);
             // INICIO LINK VER TODOS
                 const verTodasLink = cardRefeicoesTemplateClone.querySelector('.title a');
-                verTodasLink.href = `${baseUrl}/src/pages/allCategories/allCategories.html`;
+                verTodasLink.href = `${baseUrl}/view/allCategories.html`;
             // FIM LINK VER TODOS
                 const cards = cardRefeicoesTemplateClone.querySelector('.cards');
                 Object.entries(data.categorias).forEach(([_, refeicoes]) => {
