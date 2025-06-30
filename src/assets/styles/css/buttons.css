@@ -26,6 +26,22 @@
     border: 1px solid var(--dark-green);
 }
 
+.btn.btn-default.btn-rounded {
+    border-radius: 50px;
+}
+
+.btn.btn-default.btn-rounded.active {
+    background-color: var(--dark-green);
+    color: var(--white);
+    transition: .3s ease;
+}
+
+.btn.btn-default:hover {
+    background-color: var(--dark-green);
+    color: var(--white);
+    transition: .3s ease;
+}
+
 .btn.btn-google {
     display: flex;
     align-items: center;

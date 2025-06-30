@@ -10,6 +10,8 @@
 @import url('../../../pages/access.css');
 @import url('./effects.css');
 @import url('../../../pages/allCategories/allCategories.css');
+@import url('../../../components/filter/filter.css');
+
 
 :root {
 /* COLORS */
