@@ -31,7 +31,7 @@ fetch(`${baseUrl}/src/components/header/header.html`)
     iconMenu.src = `${baseUrl}/public/assets/img/icons/menu-hamburguer.svg`;
     iconSearch.src = `${baseUrl}/public/assets/img/icons/search-icon.svg`;
     iconProfile.src = `${baseUrl}/public/assets/img/icons/profile-icon.svg`;
-    linkLogin.href = `${baseUrl}/src/pages/login/login.html`;
+    linkLogin.href = `${baseUrl}/view/login.html`;
     linkKits.href = `${baseUrl}/view/allCategories.html#container-kits`;
 })
 .catch(err => console.log(err));
