@@ -13,20 +13,40 @@ fetch(`${baseUrl}/src/components/footer/footer.html`)
     const iconFacebook = document.querySelector('.icon-facebook');
     const iconInstagram = document.querySelector('.icon-instagram');
     const iconX = document.querySelector('.icon-x');
-    const linkKits = document.querySelectorAll('.link-kits');
-    const goToHome = document.querySelectorAll('.logo a');
+    const linkKits = document.querySelectorAll('#link-kits');
+    const linkBasica = document.querySelectorAll('#link-basica');
+    const linkGanhoDeMassa = document.querySelectorAll('#link-ganho-de-massa');
+    const linkVegano = document.querySelectorAll('#link-vegano');
+    const linkEmagrecimento = document.querySelectorAll('#link-emagrecimento');
+    const linkManutencaoDePeso = document.querySelectorAll('#link-manutencao-de-peso');
+    const goToHome = document.querySelectorAll('#link-home');
+
+    linkBasica.forEach(link => {
+        link.href = linkBasica.href = `${baseUrl}/src/pages/allCategories/allCategories.html#basica`;
+    });
+    linkGanhoDeMassa.forEach(link => {
+        link.href = linkGanhoDeMassa.href = `${baseUrl}/src/pages/allCategories/allCategories.html#ganho-de-massa`;
+    });
+    linkVegano.forEach(link => {
+        link.href = linkVegano.href = `${baseUrl}/src/pages/allCategories/allCategories.html#vegano`;
+    });
+    linkEmagrecimento.forEach(link => {
+        link.href = linkEmagrecimento.href = `${baseUrl}/src/pages/allCategories/allCategories.html#emagrecimento`;
+    });
+    linkManutencaoDePeso.forEach(link => {
+        link.href = linkManutencaoDePeso.href = `${baseUrl}/src/pages/allCategories/allCategories.html#manutencao-de-peso`;
+    });
     linkKits.forEach(link => {
         link.href = linkKits.href = `${baseUrl}/src/pages/allCategories/allCategories.html#container-kits`;
-    })
-
+    });
     goToHome.forEach(home => {
         home.href = `${baseUrl}`;
-    })
+    });
 
     logo.src = `${baseUrl}/public/assets/img/icons/logo.png`;
     iconFacebook.src = `${baseUrl}/public/assets/img/icons/facebook.svg`;
     iconInstagram.src = `${baseUrl}/public/assets/img/icons/instagram.svg`;
     iconX.src = `${baseUrl}/public/assets/img/icons/x.svg`;
-    
+
 })
 .catch(err => console.log(err));
