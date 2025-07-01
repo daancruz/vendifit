@@ -16,22 +16,13 @@ fetch(`${baseUrl}/src/components/header/header.html`)
     const iconMenu = document.querySelector('.icon-menu');
     const iconSearch = document.querySelector('.icon-search');
     const iconProfile = document.querySelector('.icon-profile');
-    const linkLogin = document.querySelector('.link-login');
-    const linkKits = document.querySelector('.link-kits');
-    const goToHome = document.querySelectorAll('.navbar .link');
 
     logo.forEach(img => {
         img.src = `${baseUrl}/public/assets/img/icons/logo.png`;
     })
 
-    goToHome.forEach(home => {
-        home.href = `${baseUrl}`;
-    })
-
     iconMenu.src = `${baseUrl}/public/assets/img/icons/menu-hamburguer.svg`;
     iconSearch.src = `${baseUrl}/public/assets/img/icons/search-icon.svg`;
     iconProfile.src = `${baseUrl}/public/assets/img/icons/profile-icon.svg`;
-    linkLogin.href = `${baseUrl}/view/login.html`;
-    linkKits.href = `${baseUrl}/view/allCategories.html#container-kits`;
 })
 .catch(err => console.log(err));
