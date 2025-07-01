@@ -1,4 +1,5 @@
 const repositoryName = 'vendifit';
+
 const isGhPages = location.hostname.includes('github.io');
 
 const basePath = isGhPages ? `/${repositoryName}` : '';
@@ -31,6 +32,7 @@ icon.forEach(path => {
 // });
 
 const scripts = [
+    `${baseUrl}/src/assets/js/globalLinks.js`,
     `${baseUrl}/src/components/header/header.js`,
     `${baseUrl}/src/components/footer/footer.js`,
     `${baseUrl}/src/utils/handleImageError.js`,

@@ -26,7 +26,19 @@ fetch(`${baseUrl}/data/categoria.json`)
                         cardClone.querySelector('.card img').onerror = handleImageError;
                         cardClone.querySelector('.card .content .title').textContent = categoria.name;
                         cardClone.querySelector('.card .content .description').textContent = categoria.description;
-                        cardClone.querySelector('.card .btn').href = `${baseUrl}/${categoria.link}`;
+                        const categoriaName = categoria.name
+                        .normalize('NFD')                    // separa os acentos
+                        .replace(/[\u0300-\u036f]/g, '')     // remove os acentos
+                        .replace(/[^a-zA-Z0-9 ]/g, '')       // remove caracteres especiais
+                        .toLowerCase()                       // coloca tudo em minúsculas
+                        .split(' ')                          // separa por espaços
+                        .map((word, index) => {
+                        if (index === 0) return word;
+                        return word.charAt(0).toUpperCase() + word.slice(1);
+                        })
+                        .join('');
+                        cardClone.querySelector('[data-link]').setAttribute('data-link', categoriaName)
+                        
                         cards.appendChild(cardClone);
                     });
 
