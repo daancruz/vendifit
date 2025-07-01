@@ -9,7 +9,7 @@ window.BASE_URL = location.origin + basePath;
 const baseUrl = window.BASE_URL;
 
 const icon = [
-    `${baseUrl}/public/assets/img/icons/logo.png`,
+    `${baseUrl}/public/assets/img/icons/favicon.ico`,
 ];
 
 icon.forEach(path => {
@@ -32,6 +32,7 @@ icon.forEach(path => {
 // });
 
 const scripts = [
+    `${baseUrl}/src/utils/loading.js`,
     `${baseUrl}/src/assets/js/globalLinks.js`,
     `${baseUrl}/src/components/header/header.js`,
     `${baseUrl}/src/components/footer/footer.js`,
