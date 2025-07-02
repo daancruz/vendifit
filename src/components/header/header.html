@@ -2,30 +2,40 @@
     <nav class="navbar">
         <a class="link" href="" data-link="home"><img class="logo" src="" alt="logo"></a>
         <ul class="list">
-            <label for="hamburguer">
-                <li class="item"><img class="icon icon-menu" src="" alt="Menu">
-                </li>
-            </label>
-            <input type="checkbox" id="hamburguer" hidden>
+            <li class="item">
+                <img class="icon icon-menu" src="" alt="Menu" data-btn="menu">
+            </li>
             <li class="item"><img class="icon icon-search" src="" alt="Pesquisa"></li>
-            <li class="item"><a class="link" href="" data-link="home"><img class="logo" src=""
-                        alt="Logo"></a></li>
+            <li class="item"><a class="link" href="" data-link="home">
+                    <img class="logo" src="" alt="Logo"></a></li>
             <li class="item">
                 <a class="" href="" data-link="login">
                     <img class="icon icon-profile" src="" alt="Perfil">
                 </a>
             </li>
             <li class="item btn btn-bag">
-                 <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 16 16">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 16 16">
+                    <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
                 </svg>
                 <span>Sua sacola</span>
             </li>
         </ul>
         <ul class="sublist">
+            <li class="item hamburguer">
+                <a href="" data-link="home">
+                    <img class="logo" src="../../../public/assets/img/icons/logo.png" alt="">
+                </a>
+
+                <img class="icon" src="../../../public/assets/img/icons/close.svg" alt="" data-btn="close">
+            </li>
+            <li class="item hamburguer">
+                <h3>Categorias</h3>
+            </li>
             <li class="item">
                 Refeições
-                <ul class="list">
+                <img class="icon hamburguer" src="../../../public/assets/img/icons/chevron-right.svg" alt="">
+                <ul class="list hamburguer">
                     <li class="item"><a class="link" href="" data-link="basica">Básicas</a></li>
                     <li class="item"><a class="link" href="" data-link="ganhoDeMassa">Ganho de Massa</a></li>
                     <li class="item"><a class="link" href="" data-link="vegano">Vegana</a></li>
@@ -34,7 +44,13 @@
                 </ul>
             </li>
             <li class="item"><a class="link underline" href="" data-link="kits">Kits</a></li>
+            <li class="item hamburguer">
+                <h3>Conhecimento</h3>
+            </li>
             <li class="item"><a class="link underline" href="#">Objetivos</a></li>
+            <li class="item hamburguer">
+                <h3>Sbore</h3>
+            </li>
             <li class="item"><a class="link underline" href="#">A Vendifit</a></li>
         </ul>
     </nav>
